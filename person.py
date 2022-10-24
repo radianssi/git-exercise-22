@@ -20,4 +20,4 @@ class Person:
         self.__age = age
 
     def __str__(self):
-        return f'Address: {self._address}\nPhone: {self._phone_number}'
+        return f'Name: {self.__name}\nAge: {self.__age}'
